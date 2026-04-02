@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<NotepadPlus>
+    <UserLang name="Adblock Filter List" ext="" udlVersion="2.1">
+        <Settings>
+            <Global forcePureLC="1" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00! 01 02 03 04</Keywords>
+            <Keywords name="Delimiters">00## 01 02((EOL))</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="LINE COMMENTS" fgColor="919191" />
+            <WordsStyle name="DELIMITERS1" fgColor="975BF1" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
