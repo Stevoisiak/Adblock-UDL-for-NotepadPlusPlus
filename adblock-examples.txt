@@ -24,8 +24,9 @@ example.org#?#div
 example.org#@#div
 example.org#@?#div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
 
-! CSS modifier
-example.org##div {visibility: hidden}
+! CSS modifiers
+example.org##div {font-size: 14px;}
+example.org##div:style(font-size: 14px;)
 
 ! Scriptlets
 example.org##+js(json-prune-xhr-response, suggestions.[-].widgetId, , propsToMatch, /suggestions)
